@@ -1,5 +1,5 @@
-require "world"
-require "cell"
+require_relative "world"
+require_relative "cell"
 
 class Game
   attr_accessor :world, :seeds

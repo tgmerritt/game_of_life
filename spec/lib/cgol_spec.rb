@@ -17,6 +17,8 @@ describe "CGOL" do
       expect(world).to respond_to(:cols)
       expect(world).to respond_to(:grid)
       expect(world).to respond_to(:cells)
+      expect(world).to respond_to(:randomly_populate)
+      expect(world).to respond_to(:live_cells)
     end
 
     it "adds all cells to cells attribute" do
@@ -77,6 +79,12 @@ describe "CGOL" do
     it "detects a neighbor to the north-west" do
       world.grid[cell.y - 1][cell.x - 1].alive = true
       expect(world.living_neighbors_for(cell).count).to eq 1
+    end
+
+    it "randomly populates the world" do
+      expect(world.live_cells.count).to eq 0
+      world.randomly_populate
+      expect(world.live_cells.count).not_to eq 0
     end
   end
 

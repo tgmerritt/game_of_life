@@ -17,7 +17,7 @@
     <SUITE FILE_PATH="coverage/game_of_life@CGOL_Rules_Rule__1_kills_a_live_cell_with_1_live_neighbor__game_of_life.coverage" NAME="CGOL Rules Rule #1 kills a live cell with 1 live neighbor: game_of_life Coverage Results" MODIFIED="1440347171249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
     <SUITE FILE_PATH="coverage/game_of_life@CGOL_Rules_Rule__1_kills_a_live_cell_with_no_neighbors__game_of_life.coverage" NAME="CGOL Rules Rule #1 kills a live cell with no neighbors: game_of_life Coverage Results" MODIFIED="1440347166422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
     <SUITE FILE_PATH="coverage/game_of_life@CGOL_Rules_Rule__1_does_not_kill_a_live_cell_with_2_neighbors__game_of_life.coverage" NAME="CGOL Rules Rule #1 does not kill a live cell with 2 neighbors: game_of_life Coverage Results" MODIFIED="1440347697313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
-    <SUITE FILE_PATH="coverage/game_of_life@CGOL__game_of_life.coverage" NAME="CGOL: game_of_life Coverage Results" MODIFIED="1440350899298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
+    <SUITE FILE_PATH="coverage/game_of_life@CGOL__game_of_life.coverage" NAME="CGOL: game_of_life Coverage Results" MODIFIED="1440371060877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
     <SUITE FILE_PATH="coverage/game_of_life@CGOL_World_creates_a_grid_upon_initialization__game_of_life.coverage" NAME="CGOL World creates a grid upon initialization: game_of_life Coverage Results" MODIFIED="1440341570918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="game_of_life" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -88,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gosu_game_of_life.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gosu_game_of_life.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/gosu_game_of_life.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3676815">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
@@ -103,18 +103,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="e#308#1632#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="game.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state vertical-scroll-proportion="1.1381733">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -137,10 +135,10 @@
       <list>
         <option value="$PROJECT_DIR$/lib/cell.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/spec/lib/cgol_spec.rb" />
         <option value="$PROJECT_DIR$/lib/world.rb" />
         <option value="$PROJECT_DIR$/lib/gosu_game_of_life.rb" />
+        <option value="$PROJECT_DIR$/lib/game.rb" />
       </list>
     </option>
   </component>
@@ -635,30 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/var/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bundler-1.10.6/lib/bundler/vendor/thor/lib/thor/shell/basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325527">
@@ -675,13 +649,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/world.rb">
+    <entry file="file://$PROJECT_DIR$/lib/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="e#308#1632#0" expanded="false" />
-          </folding>
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -734,8 +714,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gosu_game_of_life.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3676815">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/world.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1381733">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding />
         </state>
       </provider>

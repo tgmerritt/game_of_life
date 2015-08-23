@@ -19,15 +19,14 @@ class Game
     next_round_dead = []
 
     world.cells.each do |cell|
-      if cell.alive? && world.living_neighbors_for(cell).count < 2
-        next_round_dead << cell
+      if cell.alive?
+        if world.living_neighbors_for(cell).count < 2 || world.living_neighbors_for(cell).count > 3
+          next_round_dead << cell
+        elsif ([2, 3].include? world.living_neighbors_for(cell).count)
+          next_round_live << cell
+        end
       end
-      if cell.alive? && ([2, 3].include? world.living_neighbors_for(cell).count)
-        next_round_live << cell
-      end
-      if cell.alive? && world.living_neighbors_for(cell).count > 3
-        next_round_dead << cell
-      end
+
       if cell.dead? && world.living_neighbors_for(cell).count == 3
         next_round_live << cell
       end
@@ -36,8 +35,10 @@ class Game
     next_round_live.each do |cell|
       cell.revive!
     end
+
     next_round_dead.each do |cell|
       cell.die!
     end
+
   end
 end
